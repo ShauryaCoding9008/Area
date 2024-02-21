@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "LEMON MILK Bold";
+    src: url("https://db.onlinewebfonts.com/t/dcbedadff6f97bfa4d87d02fe416409f.eot");
+    src: url("https://db.onlinewebfonts.com/t/dcbedadff6f97bfa4d87d02fe416409f.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/dcbedadff6f97bfa4d87d02fe416409f.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/dcbedadff6f97bfa4d87d02fe416409f.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/dcbedadff6f97bfa4d87d02fe416409f.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/dcbedadff6f97bfa4d87d02fe416409f.svg#LEMON MILK Bold")format("svg");
+}
+body, h1, ul, li, form, p {
+    margin: 0;
+    padding: 0;
+}
+
+/* Add this style for h1 in style.css */
+
+.head{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5rem;
+    font-family: "LEMON MILK Bold";
+}
+.head1{
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+    margin-bottom: 20px;
+    color: #333;
+    letter-spacing: 1px;
+    padding: 1rem;
+    font-family: "LEMON MILK Bold";
+}
+/* 
+.mouse-memoirs-regular {
+    font-family: "Lemon/Milk",    sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5rem;
+    
+  } */
+  
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ccc;
+    color: #333;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.shape {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 25px;
+}
+
+.shape-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.shape-list li {
+    margin: 10px;
+}
+
+.shape-list a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    text-align: center;
+    width: 150px;  /* Set width to 200px */
+    height: 150px; /* Set height to 200px */
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+}
+
+.shape-list a img {
+    width: 100%;  /* Make the image fill the anchor tag */
+    height: 100%; /* Make the image fill the anchor tag */
+    object-fit: cover;
+}
+
+.shape-list a:hover {
+    transform: scale(1.1);
+}
+
+/* Add more styles as needed */
